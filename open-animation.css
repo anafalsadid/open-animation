@@ -1,0 +1,32 @@
+@keyframes fadeUP {
+    0%{
+        transform: translateY(500px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes fadeDOWN {
+    0%{
+        transform: translateY(-500px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes fadeLEFT {
+    0%{
+        transform: translatex(-500px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes fadeRIGHT {
+    0%{
+        transform: translatex(500px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}    
